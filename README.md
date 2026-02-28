@@ -1,99 +1,93 @@
-# 🩸 BloodLink -- Plateforme Intelligente de Don de Sang
+# 🩸 BloodLink — Plateforme de Don de Sang (Rab’Hacks 2026)
 
-## 📌 Présentation du Projet
+## 📌 Contexte du Hackathon
 
-**BloodLink** est une plateforme intelligente de gestion des dons de
-sang conçue pour connecter efficacement les donneurs, les hôpitaux et
-les patients dans le besoin.
+Ce projet a été développé dans le cadre du hackathon **Rab’Hacks 2026**, un événement étudiant dédié à l’innovation et à l’impact social, organisé avec des sessions de formation, du prototypage rapide et des outils No‑Code.
 
-L'objectif principal du système est de réduire le temps nécessaire pour
-trouver un donneur compatible et d'améliorer la gestion des situations
-d'urgence.\
-La plateforme permet de digitaliser et d'optimiser l'ensemble du
-processus de don de sang grâce à un système structuré, sécurisé et
-facile à utiliser.
+---
 
-------------------------------------------------------------------------
+## 🎯 Présentation du Projet
 
-## 🎯 Objectifs du Projet
+**BloodLink** est une plateforme d’assistance numérique qui facilite la mise en relation entre :
 
--   Faciliter l'inscription et la gestion des profils des donneurs\
--   Permettre aux hôpitaux de publier des demandes urgentes de sang\
--   Assurer la correspondance des donneurs selon la compatibilité des
-    groupes sanguins\
--   Réduire le temps de réponse en cas d'urgence\
--   Stocker de manière sécurisée les données des utilisateurs et
-    l'historique des dons\
--   Fournir des outils de suivi et de statistiques pour l'administration
+* 🧑 Donneurs de sang
+* 🏥 Hôpitaux ou centres de santé
+* 🩺 Patients nécessitant des dons urgents
 
-------------------------------------------------------------------------
+Le but est d’accélérer et d’optimiser les processus de don, en particulier en situation d’urgence, grâce à une application simple, accessible et technologiquement adaptée aux besoins du terrain.
 
-## 👥 Utilisateurs du Système
+---
+
+## 🛠️ Outils & Technologies Utilisées Pendant Rab’Hacks
+
+### 🔧 Outils No‑Code & Productivité
+
+* **Softr** — création rapide d’applications web sans coder.
+* **Zyllio** — outil agile pour concevoir des solutions métiers.
+* **n8n** — automatisation des workflows et intégration des données.
+* **Notion** — organisation de projet, documentation, suivi des tâches et planning.
+* **WeWeb** — création d’interfaces web connectées à des données.
+
+Ces outils No‑Code ont permis de prototyper rapidement des fonctionnalités sans écrire du code complet.
+
+---
+
+## 👥 Utilisateurs Ciblés
 
 ### 🧑 Donneur
 
--   Créer et gérer son profil personnel\
--   Indiquer son groupe sanguin et sa localisation\
--   Recevoir des notifications en cas de besoin urgent\
--   Consulter l'historique de ses dons
+* Inscription / connexion
+* Mise à jour du profil, groupe sanguin
+* Réception de notifications de besoins urgents
 
 ### 🏥 Hôpital / Centre Médical
 
--   Publier des demandes de sang\
--   Rechercher des donneurs compatibles\
--   Gérer les cas urgents
+* Création et gestion des demandes de sang
+* Recherche de donneurs compatibles
 
 ### 👨‍💼 Administrateur
 
--   Gérer les utilisateurs et les demandes\
--   Superviser l'activité du système\
--   Accéder aux statistiques et rapports
+* Supervision globale du système
+* Gestion des utilisateurs et des urgences
 
-------------------------------------------------------------------------
+---
 
-## ⚙️ Fonctionnalités Principales
+## ⚙️ Fonctionnalités
 
--   Système d'authentification sécurisé\
--   Opérations CRUD pour les utilisateurs et les demandes\
--   Filtrage et logique de correspondance par groupe sanguin\
--   Gestion des demandes urgentes\
--   Tableau de bord administratif\
--   Base de données structurée et sécurisée
+* 🪪 **Authentification sécurisée**
+* 🩸 **Filtrage par groupe sanguin**
+* 📍 **Vision simplifiée des donneurs compatibles**
+* 🛠️ **Prototype fonctionnel grâce au No‑Code**
+* 📊 **Documentation et suivi du projet sur Notion**
+* 🚀 **Déploiement initial Web accessible**
 
-------------------------------------------------------------------------
+---
 
-## 🛠️ Technologies Utilisées
+## 🖼️ Preuves de Travail
 
--   Frontend : HTML, CSS, Bootstrap / React\
--   Backend : PHP / Spring Boot / Node.js\
--   Base de données : MySQL\
--   Gestion de version : Git & GitHub
+Des captures d’écran, et liens vers les étapes du développement sont disponibles dans le dossier `preuves` de ce dépôt :
 
-------------------------------------------------------------------------
+```
+/preuves
+  ├─ screenshot_app.png
+  ├─ workflow_n8n.png
+  └─ planning_notion.png
+```
 
-## 🚀 Impact Social
+*(Ajoutez ici vos propres preuves de travail)*
 
-BloodLink vise à :
+---
 
--   Sauver des vies grâce à une mise en relation rapide\
--   Améliorer la coordination des établissements de santé\
--   Encourager la culture du don de sang\
--   Moderniser les systèmes traditionnels de gestion des banques de sang
+## 📈 Objectifs Futurs
 
-------------------------------------------------------------------------
+* 📱 Développement complet front + back
+* 📍 Ajout de géolocalisation des donneurs
+* 📬 Système de notifications en temps réel
+* 📊 Tableau de bord avancé pour admin
+* 📡 Déploiement cloud (Vercel / Netlify / Render)
 
-## 🔮 Améliorations Futures
-
--   Développement d'une application mobile\
--   Intégration de la géolocalisation en temps réel\
--   Prédiction intelligente des besoins en sang via l'IA\
--   Tableau de bord analytique avancé
-
-------------------------------------------------------------------------
+---
 
 ## 📌 Conclusion
 
-BloodLink est une solution technologique à fort impact social visant à
-moderniser la gestion des dons de sang.\
-Le projet combine innovation, efficacité et responsabilité sociale afin
-de créer une réelle valeur pour la société.
+BloodLink est une solution créée pour répondre à un besoin réel dans le domaine de la santé : rendre les dons de sang plus rapides et plus accessibles. Grâce aux outils
