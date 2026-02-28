@@ -1,94 +1,99 @@
-# 🩸 BloodLink -- Smart Blood Donation Platform
+# 🩸 BloodLink -- Plateforme Intelligente de Don de Sang
 
-## 📌 Project Overview
+## 📌 Présentation du Projet
 
-**BloodLink** is an intelligent blood donation management platform
-designed to connect blood donors with hospitals and patients in need.\
-The main goal of this system is to reduce the time required to find
-compatible blood donors and improve emergency response efficiency.
+**BloodLink** est une plateforme intelligente de gestion des dons de
+sang conçue pour connecter efficacement les donneurs, les hôpitaux et
+les patients dans le besoin.
 
-The platform digitalizes and optimizes the entire blood donation process
-by providing a structured, secure, and user-friendly system.
-
-------------------------------------------------------------------------
-
-## 🎯 Project Objectives
-
--   Facilitate donor registration and profile management\
--   Enable hospitals to publish urgent blood requests\
--   Match donors based on blood type compatibility\
--   Improve response time in emergency situations\
--   Maintain a secure database of users and donation history\
--   Provide statistics and monitoring tools for administrators
+L'objectif principal du système est de réduire le temps nécessaire pour
+trouver un donneur compatible et d'améliorer la gestion des situations
+d'urgence.\
+La plateforme permet de digitaliser et d'optimiser l'ensemble du
+processus de don de sang grâce à un système structuré, sécurisé et
+facile à utiliser.
 
 ------------------------------------------------------------------------
 
-## 👥 System Users
+## 🎯 Objectifs du Projet
 
-### 🧑 Donor
-
--   Create and manage personal profile\
--   Specify blood type and location\
--   Receive notifications for urgent blood needs\
--   Track donation history
-
-### 🏥 Hospital / Medical Center
-
--   Publish blood requests\
--   Search for compatible donors\
--   Manage urgent donation cases
-
-### 👨‍💼 Administrator
-
--   Manage users and requests\
--   Monitor system activity\
--   Access statistical reports
+-   Faciliter l'inscription et la gestion des profils des donneurs\
+-   Permettre aux hôpitaux de publier des demandes urgentes de sang\
+-   Assurer la correspondance des donneurs selon la compatibilité des
+    groupes sanguins\
+-   Réduire le temps de réponse en cas d'urgence\
+-   Stocker de manière sécurisée les données des utilisateurs et
+    l'historique des dons\
+-   Fournir des outils de suivi et de statistiques pour l'administration
 
 ------------------------------------------------------------------------
 
-## ⚙️ Core Features
+## 👥 Utilisateurs du Système
 
--   Secure authentication system\
--   CRUD operations for users and requests\
--   Blood type filtering and matching logic\
--   Emergency request management\
--   Administrative dashboard\
--   Structured and secure database storage
+### 🧑 Donneur
 
-------------------------------------------------------------------------
+-   Créer et gérer son profil personnel\
+-   Indiquer son groupe sanguin et sa localisation\
+-   Recevoir des notifications en cas de besoin urgent\
+-   Consulter l'historique de ses dons
 
-## 🛠️ Technologies Used
+### 🏥 Hôpital / Centre Médical
 
--   Frontend: HTML, CSS, Bootstrap / React\
--   Backend: PHP / Spring Boot / Node.js\
--   Database: MySQL\
--   Version Control: Git & GitHub
+-   Publier des demandes de sang\
+-   Rechercher des donneurs compatibles\
+-   Gérer les cas urgents
 
-------------------------------------------------------------------------
+### 👨‍💼 Administrateur
 
-## 🚀 Social Impact
-
-BloodLink aims to:
-
--   Save lives through faster donor matching\
--   Improve healthcare coordination\
--   Promote blood donation awareness\
--   Modernize traditional blood bank systems
+-   Gérer les utilisateurs et les demandes\
+-   Superviser l'activité du système\
+-   Accéder aux statistiques et rapports
 
 ------------------------------------------------------------------------
 
-## 🔮 Future Improvements
+## ⚙️ Fonctionnalités Principales
 
--   Mobile application development\
--   Real-time geolocation integration\
--   AI-based blood demand prediction\
--   Advanced analytics dashboard
+-   Système d'authentification sécurisé\
+-   Opérations CRUD pour les utilisateurs et les demandes\
+-   Filtrage et logique de correspondance par groupe sanguin\
+-   Gestion des demandes urgentes\
+-   Tableau de bord administratif\
+-   Base de données structurée et sécurisée
+
+------------------------------------------------------------------------
+
+## 🛠️ Technologies Utilisées
+
+-   Frontend : HTML, CSS, Bootstrap / React\
+-   Backend : PHP / Spring Boot / Node.js\
+-   Base de données : MySQL\
+-   Gestion de version : Git & GitHub
+
+------------------------------------------------------------------------
+
+## 🚀 Impact Social
+
+BloodLink vise à :
+
+-   Sauver des vies grâce à une mise en relation rapide\
+-   Améliorer la coordination des établissements de santé\
+-   Encourager la culture du don de sang\
+-   Moderniser les systèmes traditionnels de gestion des banques de sang
+
+------------------------------------------------------------------------
+
+## 🔮 Améliorations Futures
+
+-   Développement d'une application mobile\
+-   Intégration de la géolocalisation en temps réel\
+-   Prédiction intelligente des besoins en sang via l'IA\
+-   Tableau de bord analytique avancé
 
 ------------------------------------------------------------------------
 
 ## 📌 Conclusion
 
-BloodLink is a socially impactful and technologically driven solution
-designed to modernize blood donation management systems.\
-It combines innovation, efficiency, and social responsibility to create
-a meaningful real-world impact.
+BloodLink est une solution technologique à fort impact social visant à
+moderniser la gestion des dons de sang.\
+Le projet combine innovation, efficacité et responsabilité sociale afin
+de créer une réelle valeur pour la société.
