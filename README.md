@@ -1,93 +1,70 @@
-# 🩸 BloodLink — Plateforme de Don de Sang (Rab’Hacks 2026)
+## MediQueue – Gestion intelligente des files d’attente dans les hôpitaux
 
-## 📌 Contexte du Hackathon
+### Contexte du projet
 
-Ce projet a été développé dans le cadre du hackathon **Rab’Hacks 2026**, un événement étudiant dédié à l’innovation et à l’impact social, organisé avec des sessions de formation, du prototypage rapide et des outils No‑Code.
+Nous participons au Hackathon **Rab’Hacks**, et notre projet vise à résoudre le problème des longues files d’attente dans les hôpitaux.
 
----
+### Problème à résoudre
 
-## 🎯 Présentation du Projet
+Les patients passent beaucoup de temps dans les files d’attente, ce qui génère stress et inefficacité. Les hôpitaux manquent d’outils pour gérer efficacement le flux de patients en temps réel.
 
-**BloodLink** est une plateforme d’assistance numérique qui facilite la mise en relation entre :
+### Solution proposée : MediQueue
 
-* 🧑 Donneurs de sang
-* 🏥 Hôpitaux ou centres de santé
-* 🩺 Patients nécessitant des dons urgents
+**MediQueue** est une plateforme digitale intelligente qui optimise le flux des patients dans les hôpitaux.
 
-Le but est d’accélérer et d’optimiser les processus de don, en particulier en situation d’urgence, grâce à une application simple, accessible et technologiquement adaptée aux besoins du terrain.
+* Réduction des temps d’attente.
+* Gestion efficace des rendez-vous.
+* Informations en temps réel sur le numéro de tour et le temps restant.
 
----
+### Innovation : Chatbot en Darija + QR Code
 
-## 🛠️ Outils & Technologies Utilisées Pendant Rab’Hacks
+1. Le patient scanne un **QR Code** à l’entrée ou sur le site web.
+2. Il interagit avec un **chatbot en darija** qui :
 
-### 🔧 Outils No‑Code & Productivité
+   * Confirme son inscription dans la file.
+   * Fournit son **numéro de tour**.
+   * Indique le **temps estimé avant son passage**.
+3. Le patient peut suivre son avancement en temps réel.
 
-* **Softr** — création rapide d’applications web sans coder.
-* **Zyllio** — outil agile pour concevoir des solutions métiers.
-* **n8n** — automatisation des workflows et intégration des données.
-* **Notion** — organisation de projet, documentation, suivi des tâches et planning.
-* **WeWeb** — création d’interfaces web connectées à des données.
+### Conditions de génération des tickets
 
-Ces outils No‑Code ont permis de prototyper rapidement des fonctionnalités sans écrire du code complet.
+* Les tickets virtuels sont générés uniquement **pendant les horaires d’ouverture de l’hôpital**.
+* Chaque jour, le **compteur de tickets est remis à zéro**.
+* La génération est limitée selon le nombre de patients qu’un service peut gérer par jour.
 
----
+### Bénéfices
 
-## 👥 Utilisateurs Ciblés
+* Réduction du stress lié à l’attente.
+* Amélioration de l’efficacité des services hospitaliers.
+* Accessibilité pour tous grâce au chatbot en darija.
+* Expérience digitale interactive et intuitive.
 
-### 🧑 Donneur
+### Exemple de scénario
 
-* Inscription / connexion
-* Mise à jour du profil, groupe sanguin
-* Réception de notifications de besoins urgents
+* Fatima arrive à l’hôpital pour une consultation.
+* Elle scanne le QR Code.
+* Le chatbot lui dit :
 
-### 🏥 Hôpital / Centre Médical
+  > "Salam Fatima! Tu es dans la file pour le service Radiologie. Ton numéro est 24. Il reste environ 15 minutes avant ton tour."
+* Fatima peut attendre confortablement sans rester debout dans la file.
 
-* Création et gestion des demandes de sang
-* Recherche de donneurs compatibles
+### Prompt détaillé pour Lovable
 
-### 👨‍💼 Administrateur
-
-* Supervision globale du système
-* Gestion des utilisateurs et des urgences
-
----
-
-## ⚙️ Fonctionnalités
-
-* 🪪 **Authentification sécurisée**
-* 🩸 **Filtrage par groupe sanguin**
-* 📍 **Vision simplifiée des donneurs compatibles**
-* 🛠️ **Prototype fonctionnel grâce au No‑Code**
-* 📊 **Documentation et suivi du projet sur Notion**
-* 🚀 **Déploiement initial Web accessible**
-
----
-
-## 🖼️ Preuves de Travail
-
-Des captures d’écran, et liens vers les étapes du développement sont disponibles dans le dossier `preuves` de ce dépôt :
-
-```
-/preuves
-  ├─ screenshot_app.png
-  ├─ workflow_n8n.png
-  └─ planning_notion.png
-```
-
-*(Ajoutez ici vos propres preuves de travail)*
-
----
-
-## 📈 Objectifs Futurs
-
-* 📱 Développement complet front + back
-* 📍 Ajout de géolocalisation des donneurs
-* 📬 Système de notifications en temps réel
-* 📊 Tableau de bord avancé pour admin
-* 📡 Déploiement cloud (Vercel / Netlify / Render)
-
----
-
-## 📌 Conclusion
-
-BloodLink est une solution créée pour répondre à un besoin réel dans le domaine de la santé : rendre les dons de sang plus rapides et plus accessibles. Grâce aux outils
+> Crée une illustration conceptuelle pour un projet de hackathon appelé **MediQueue**, une plateforme digitale intelligente pour gérer les files d’attente dans les hôpitaux.
+>
+> L’illustration doit montrer :
+>
+> 1. Un patient qui scanne un **QR Code** à l’entrée avec son smartphone.
+> 2. Le patient interagit avec un **chatbot en Darija** donnant son numéro de tour et le temps restant.
+> 3. L’hôpital en arrière-plan avec une file d’attente courte et organisée.
+> 4. Un tableau/interface MediQueue affichant le flux des patients, les temps d’attente et la logique de génération des tickets.
+>
+> **Conditions de génération des tickets :**
+>
+> * Tickets générés uniquement pendant les horaires d’ouverture.
+> * Compteur remis à zéro chaque jour.
+> * Limite du nombre de tickets selon la capacité du service.
+>
+> Style : moderne, technologique, friendly, couleurs claires (bleu clair, vert), interface intuitive.
+>
+> L’illustration doit transmettre innovation, efficacité, confort pour le patient, et accessibilité grâce au chatbot en darija, tout en montrant la gestion intelligente des tickets selon les horaires et la remise à zéro quotidienne.
