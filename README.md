@@ -37,34 +37,6 @@ Les patients passent beaucoup de temps dans les files d’attente, ce qui génè
 * Réduction du stress lié à l’attente.
 * Amélioration de l’efficacité des services hospitaliers.
 * Accessibilité pour tous grâce au chatbot en darija.
-* Expérience digitale interactive et intuitive.
-
-### Exemple de scénario
-
-* Fatima arrive à l’hôpital pour une consultation.
-* Elle scanne le QR Code.
-* Le chatbot lui dit :
-
-  > "Salam Fatima! Tu es dans la file pour le service Radiologie. Ton numéro est 24. Il reste environ 15 minutes avant ton tour."
-* Fatima peut attendre confortablement sans rester debout dans la file.
-
-### Prompt détaillé pour Lovable
-
-> Crée une illustration conceptuelle pour un projet de hackathon appelé **MediQueue**, une plateforme digitale intelligente pour gérer les files d’attente dans les hôpitaux.
->
-> L’illustration doit montrer :
->
-> 1. Un patient qui scanne un **QR Code** à l’entrée avec son smartphone.
-> 2. Le patient interagit avec un **chatbot en Darija** donnant son numéro de tour et le temps restant.
-> 3. L’hôpital en arrière-plan avec une file d’attente courte et organisée.
-> 4. Un tableau/interface MediQueue affichant le flux des patients, les temps d’attente et la logique de génération des tickets.
->
-> **Conditions de génération des tickets :**
->
-> * Tickets générés uniquement pendant les horaires d’ouverture.
-> * Compteur remis à zéro chaque jour.
-> * Limite du nombre de tickets selon la capacité du service.
->
-> Style : moderne, technologique, friendly, couleurs claires (bleu clair, vert), interface intuitive.
->
-> L’illustration doit transmettre innovation, efficacité, confort pour le patient, et accessibilité grâce au chatbot en darija, tout en montrant la gestion intelligente des tickets selon les horaires et la remise à zéro quotidienne.
+ Expérience digitale interactive et intuitive.
+:
+voici lien de Figma : https://www.figma.com/make/6TBeFEfaBf3sIhBnl1Jjjz/MediQueue?t=moFfl2W5AylXtPuk-1
