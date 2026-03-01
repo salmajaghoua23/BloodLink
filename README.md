@@ -38,5 +38,11 @@ Les patients passent beaucoup de temps dans les files d’attente, ce qui génè
 * Amélioration de l’efficacité des services hospitaliers.
 * Accessibilité pour tous grâce au chatbot en darija.
  Expérience digitale interactive et intuitive.
-:
-voici lien de Figma : https://www.figma.com/make/6TBeFEfaBf3sIhBnl1Jjjz/MediQueue?t=moFfl2W5AylXtPuk-1
+
+
+
+
+voici lien de Figma : 
+
+
+https://www.figma.com/make/6TBeFEfaBf3sIhBnl1Jjjz/MediQueue?t=moFfl2W5AylXtPuk-1
